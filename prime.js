@@ -1,12 +1,8 @@
 let a = 10;
 let count =0 ;
-for (i=0;i<=a;i++){
-if (i%a!=0){
+ for (i=1;i<=a;i++){ // hear changing the code 
+if (a%i==0){
 count++;
 }
 }
-if (count==2){
-console.log("prime");
-}
-else { console.log("not prime");
-}
+ (count==2 ? console.log("Prime"):console.log("Not prime")) // and using ternary oprator

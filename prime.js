@@ -13,4 +13,7 @@ else {
 console.log("Not prime")
 }
 
+<<<<<<< HEAD
  
+=======
+>>>>>>> 3e3ba3449735781474418da7f57b268d27daaffc
